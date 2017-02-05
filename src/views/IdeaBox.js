@@ -6,7 +6,7 @@ const view = (model, msg) => (html`
   <div class="idea-box">
     <h1>IdeaBox 13</h1>
     ${Inputs(model, msg)}
-    ${Ideas(model)}
+    ${Ideas(model, msg)}
   </div>
 `);
 
