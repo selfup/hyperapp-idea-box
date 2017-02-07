@@ -4,6 +4,9 @@ body {
       "Ubuntu", "Cantarell", "Fira Sans",
       "Droid Sans", "Helvetica Neue", sans-serif;
   background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  zoom: 140%;
 }
 
 button {
