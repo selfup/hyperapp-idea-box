@@ -955,7 +955,7 @@ const App = (model, msg) => (__WEBPACK_IMPORTED_MODULE_0_hyperapp__["html"]`
 
 
 
-const view = (model, msg) => (__WEBPACK_IMPORTED_MODULE_0_hyperapp__["html"]`
+const IdeaBox = (model, msg) => (__WEBPACK_IMPORTED_MODULE_0_hyperapp__["html"]`
   <div>
     <div class="idea-box">
       <h1>IdeaBox 13</h1>
@@ -965,7 +965,7 @@ const view = (model, msg) => (__WEBPACK_IMPORTED_MODULE_0_hyperapp__["html"]`
   </div>
 `);
 
-/* harmony default export */ __webpack_exports__["a"] = view;
+/* harmony default export */ __webpack_exports__["a"] = IdeaBox;
 
 
 /***/ }),
