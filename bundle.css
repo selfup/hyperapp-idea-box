@@ -3,19 +3,39 @@ body {
       "Segoe UI", "Roboto", "Oxygen",
       "Ubuntu", "Cantarell", "Fira Sans",
       "Droid Sans", "Helvetica Neue", sans-serif;
+  background-color: lightgray;
 }
 
 button {
-  border-radius: 0px;
+  border-radius: 3px;
   border-style: none;
   border-width: 1px;
   outline-color: darkturquoise;
 }
 
 .idea-box {
+  border-radius: 5px;
+  background-color: white;
   width: 400px;
   margin: 0 auto;
   text-align: center;
+  -webkit-box-shadow: 0 8px 6px -6px grey;
+	-moz-box-shadow: 0 8px 6px -6px grey;
+	box-shadow: 0px 8px 8px -6px grey;
+}
+
+.ideas {
+  text-align: center;
+}
+
+.idea {
+  margin-top: 5px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.actions {
+  padding-bottom: 5px;
 }
 
 .add {
@@ -45,15 +65,6 @@ button {
   border-style: none;
 }
 
-.idea {
-  margin-top: 5px;
-  width: 400px;
-  margin: 0 auto;
-  -webkit-box-shadow: 0 8px 6px -6px grey;
-	-moz-box-shadow: 0 8px 6px -6px grey;
-	box-shadow: 0 8px 6px -6px grey;
-}
-
 input {
   outline: 0;
   border-width: 0 0 1.5px 0;
@@ -64,20 +75,20 @@ input:focus {
   border-color: deeppink
 }
 
-.inputs {
-  -webkit-box-shadow: 0 8px 6px -6px grey;
-	-moz-box-shadow: 0 8px 6px -6px grey;
-	box-shadow: 0 8px 6px -6px grey;
-}
-
 .swill {
-  background-color: lightblue;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: lightskyblue;
 }
 
 .plausible {
-  background-color: lightgoldenrodyellow;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: lightsalmon;
 }
 
 .genius {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
   background-color: lightcoral;
 }
